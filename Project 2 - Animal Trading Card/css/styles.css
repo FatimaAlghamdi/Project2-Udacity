@@ -1,0 +1,75 @@
+  /* My css */
+  /* The padding CSS property sets the padding area on all four sides of an
+   element. It is a shorthand that sets all individual paddings at once:
+   padding-top, padding-right, padding-bottom, and padding-left. */
+
+  /*The margin CSS property sets the margin area on all four sides of an
+  element. It is a shorthand that sets all individual margins at once:
+  margin-top, margin-right, margin-bottom, and margin-left. */
+
+body {
+  font-family: "Open Sans", Times, serif;
+  color: black;
+}
+
+
+.Trading-Card {
+  width: 320px;
+  /* Apply to all four sides */
+  padding: 15px;
+  border: 2px solid #7c3b15;
+  border-radius: 8px;
+  box-shadow: 5px 5px 20px #ccc;
+  background-color: #ffe19e;
+}
+
+
+.Animal-Name {
+  margin: 5px 0 5px 0;
+  font-size: 2em;
+  padding: 3px 0 3px 0;
+}
+
+
+.Animal-image {
+  margin: auto;
+  width: 300px;
+  padding: 5px;
+}
+
+
+.Animal-Information {
+  width: 300px;
+  padding: 8px;
+  font-size: 1.05em;
+  text-align: justify;
+  border: 2px solid #7c3b15;
+  border-radius: 8px;
+}
+
+
+.Interesting-Fact {
+  margin: 10px;
+}
+
+
+.ItalicText {
+  font-style: italic;
+}
+
+
+.ListItems {
+  padding: 8px 0 8px 0;
+  margin: 10px;
+  list-style: none;
+}
+
+
+.Items {
+  font-weight: bold;
+}
+
+
+.Brief-Description {
+  margin: 10px;
+}
